@@ -1,0 +1,16 @@
+{
+  "name": "template-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "5.18.0",
+    "astro-icon": "1.1.5",
+    "@fontsource-variable/jost": "5.2.8"
+  }
+}
