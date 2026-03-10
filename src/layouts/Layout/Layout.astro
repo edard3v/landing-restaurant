@@ -3,8 +3,7 @@ import "@styles/index.css";
 import css from "./Layout.module.css";
 import Seo from "./Seo.astro";
 import { ClientRouter } from "astro:transitions";
-import Header from "@components/shared/Header/Header.astro";
-import Footer from "@components/shared/Footer/Footer.astro";
+import Header from "@views/IndexView/Header/Header.astro";
 
 interface Props {
   title: string;
@@ -30,6 +29,6 @@ const { title, ...rest } = Astro.props;
   <body>
     <Header />
     <slot />
-    <Footer />
+    <footer>footer</footer>
   </body>
 </html>

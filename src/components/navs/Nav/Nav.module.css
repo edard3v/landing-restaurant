@@ -1,0 +1,17 @@
+.nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  .wrapper {
+    display: flex;
+    gap: var(--lg);
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}

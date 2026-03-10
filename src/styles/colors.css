@@ -1,10 +1,10 @@
 :root {
-  --bg_main: black; /* Fondo Principal */
-  --bg_surf: rgb(12, 12, 12); /* Superficie */
+  --bg_main: whitesmoke; /* Fondo Principal */
+  --bg_surf: hsl(0, 0%, 5%); /* Superficie */
   --primary: hsl(39, 100%, 50%); /* Primario */
   --secondary: hsl(23, 49, 88); /* Secundario */
-  --titles: #fff; /* Texto Principal */
-  --paras: #fff; /* Texto Secundario */
+  --titles: black; /* Texto Principal */
+  --paras: black; /* Texto Secundario */
   --hl: #ffbc42; /* Resaltado */
   --accent: #dd4ea5; /* Acento */
 
