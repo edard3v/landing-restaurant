@@ -1,0 +1,20 @@
+---
+import Btn from "@components/buttons/Btn/Btn.astro";
+import css from "./Banner.module.css";
+import dish_img from "./dish.png";
+---
+
+<div class={css.banner}>
+  <article class={css.article}>
+    <h1>Un lugar donde comes sano</h1>
+
+    <p>
+      En nuestro restaurante, cada plato está pensado para cuidar de ti. Utilizamos ingredientes
+      frescos, de temporada y llenos de sabor. Porque comer bien no está reñido con disfrutar.
+    </p>
+
+    <Btn class={css.btn}>Explorar el menú</Btn>
+  </article>
+
+  <img src={dish_img.src} alt="plato" />
+</div>

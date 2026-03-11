@@ -1,7 +1,10 @@
 ---
 import Nav from "@components/navs/Nav/Nav.astro";
+import Banner from "./Banner/Banner.astro";
+import css from "./Header.module.css";
 ---
 
-<header>
+<header class={css.header}>
   <Nav />
+  <Banner />
 </header>

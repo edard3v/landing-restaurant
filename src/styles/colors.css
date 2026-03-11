@@ -1,8 +1,8 @@
 :root {
   --bg_main: whitesmoke; /* Fondo Principal */
-  --bg_surf: hsl(0, 0%, 5%); /* Superficie */
+  --bg_surf: #9d9d9d; /* Superficie */
   --primary: hsl(39, 100%, 50%); /* Primario */
-  --secondary: hsl(23, 49, 88); /* Secundario */
+  --secondary: hsl(0, 0%, 15%); /* Secundario */
   --titles: black; /* Texto Principal */
   --paras: black; /* Texto Secundario */
   --hl: #ffbc42; /* Resaltado */

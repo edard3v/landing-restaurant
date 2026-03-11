@@ -1,0 +1,5 @@
+.header {
+  padding: var(--xl2);
+  display: grid;
+  gap: var(--xl);
+}

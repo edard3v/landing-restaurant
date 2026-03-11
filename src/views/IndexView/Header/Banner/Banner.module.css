@@ -1,0 +1,14 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .article {
+    display: grid;
+    gap: var(--xl);
+    align-content: start;
+
+    .btn {
+      justify-self: start;
+    }
+  }
+}
