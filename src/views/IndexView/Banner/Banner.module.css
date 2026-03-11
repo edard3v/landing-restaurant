@@ -1,11 +1,11 @@
 .banner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% 1fr;
 
   .article {
     display: grid;
     gap: var(--xl);
-    align-content: start;
+    align-content: center;
 
     .btn {
       justify-self: start;

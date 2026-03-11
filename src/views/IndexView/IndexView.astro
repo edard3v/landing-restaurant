@@ -1,8 +1,12 @@
 ---
+import css from "./IndexView.module.css";
 import Layout from "@layouts/Layout/Layout.astro";
 import { INDEX } from "./config";
+import Banner from "./Banner/Banner.astro";
 ---
 
 <Layout title={INDEX.display}>
-  <main></main>
+  <main class={css.index}>
+    <Banner />
+  </main>
 </Layout>

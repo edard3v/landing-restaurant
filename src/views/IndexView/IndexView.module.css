@@ -1,0 +1,6 @@
+.index {
+  padding: var(--xl2);
+  padding-top: 0;
+  display: grid;
+  gap: var(--xl);
+}
