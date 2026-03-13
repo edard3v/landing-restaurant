@@ -1,0 +1,31 @@
+---
+import LinkOut from "@components/links/LinkOut/LinkOut.astro";
+import Logo from "@components/logos/Logo/Logo.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<footer>
+  <div>
+    <Logo />
+    <span>Restaurant</span>
+  </div>
+
+  <div>
+    <input type="text" />
+    <Icon name={"arrow"} />
+  </div>
+
+  <nav>
+    <LinkOut>
+      <Icon name={"facebook"} />
+    </LinkOut>
+
+    <LinkOut>
+      <Icon name={"instagram"} />
+    </LinkOut>
+
+    <LinkOut>
+      <Icon name={"gmail"} />
+    </LinkOut>
+  </nav>
+</footer>
